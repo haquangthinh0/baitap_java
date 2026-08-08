@@ -39,13 +39,13 @@ public class sinhVien {
             } else {
                 hocLuc = "F (Kem / Truot)";
             }
-            System.out.println("Ma sinh vien   : " + msv);
-            System.out.println("Ho ten         : " + hoTen);
-            System.out.println("Diem chuyen can: " + diemChuyenCan);
-            System.out.println("Diem giua ky   : " + diemGiuaKy);
-            System.out.println("Diem cuoi ky   : " + diemCuoiKy);
+            System.out.printf("Ma sinh vien   : %d\n", msv);
+            System.out.printf("Ho ten         : %s\n", hoTen);
+            System.out.printf("Diem chuyen can: %.2f\n", diemChuyenCan);
+            System.out.printf("Diem giua ky   : %.2f\n", diemGiuaKy);
+            System.out.printf("Diem cuoi ky   : %.2f\n", diemCuoiKy);
             System.out.printf("Diem tong ket  : %.2f\n", tong);
-            System.out.println("Hoc luc        : " + hocLuc);
+            System.out.printf("Hoc luc        : %s\n", hocLuc);
         }
         sc.close();
     }
